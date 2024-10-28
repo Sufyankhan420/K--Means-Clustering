@@ -27,14 +27,11 @@ Visualization
 Requirements
 # To run this project, install the required libraries:
 
-bash
-Copy code
+
 pip install pandas numpy matplotlib seaborn scikit-learn threadpoolctl
 Getting Started
 Clone the Repository
 
-bash
-Copy code
 git clone https://github.com/yourusername/customer-segmentation-kmeans.git
 Load the Data
  Dataset https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python
@@ -43,11 +40,9 @@ Place your dataset file (Mall_Customers.csv) in the appropriate directory.
 # Run the Script
 Execute the script to view the customer segments:
 
-bash
-Copy code
 python customer_segmentation.py
 Usage
 This script reads customer data, preprocesses it, clusters customers using K-means, and visualizes the results.
 By adjusting the number of clusters, businesses can explore different segmentations.
-Results
+# Results
 After clustering, the data is segmented into distinct groups, with each cluster representing a specific type of customer. These insights can assist in tailoring marketing strategies to different customer segments.
